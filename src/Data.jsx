@@ -9,36 +9,6 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-export const links = [
-  {
-    id: 1,
-    name: "Home",
-    icon: <FaHome className="nav__icon" />,
-    path: "/",
-  },
-
-  {
-    id: 2,
-    name: "Обо мне",
-    icon: <FaUser className="nav__icon" />,
-    path: "/about",
-  },
-
-  {
-    id: 3,
-    name: "Портфолио",
-    icon: <FaFolderOpen className="nav__icon" />,
-    path: "/portfolio",
-  },
-
-  {
-    id: 4,
-    name: "Контакты",
-    icon: <FaEnvelopeOpen className="nav__icon" />,
-    path: "/contact",
-  },
-];
-
 export const personalInfo = [
   {
     id: 1,
@@ -206,7 +176,7 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
+    img: "",
     title: "Photo Editing",
     details: [
       {
@@ -234,7 +204,7 @@ export const portfolio = [
 
   {
     id: 2,
-    img: Work2,
+    img: "",
     title: "Website Design",
     details: [
       {
@@ -262,7 +232,7 @@ export const portfolio = [
 
   {
     id: 3,
-    img: Work3,
+    img: "",
     title: "Video Editing",
     details: [
       {
@@ -290,7 +260,7 @@ export const portfolio = [
 
   {
     id: 4,
-    img: Work4,
+    img: "",
     title: "Video Editing",
     details: [
       {
@@ -318,7 +288,7 @@ export const portfolio = [
 
   {
     id: 5,
-    img: Work5,
+    img: "",
     title: "Landing Page",
     details: [
       {
@@ -342,7 +312,7 @@ export const portfolio = [
 
   {
     id: 6,
-    img: Work6,
+    img: "",
     title: "Photo Editing",
     details: [
       {
@@ -366,67 +336,5 @@ export const portfolio = [
         desc: "www.dibble.com",
       },
     ],
-  },
-];
-
-export const themes = [
-  {
-    id: 1,
-    img: Theme1,
-    color: "hsl(252, 35%, 51%)",
-  },
-
-  {
-    id: 2,
-    img: Theme2,
-    color: "hsl(4, 93%, 54%)",
-  },
-
-  {
-    id: 3,
-    img: Theme3,
-    color: "hsl(271, 76%, 53%)",
-  },
-
-  {
-    id: 4,
-    img: Theme4,
-    color: "hsl(225, 73%, 57%)",
-  },
-
-  {
-    id: 5,
-    img: Theme5,
-    color: "hsl(43, 74%, 49%)",
-  },
-
-  {
-    id: 6,
-    img: Theme6,
-    color: "hsl(339, 81%, 66%)",
-  },
-
-  {
-    id: 7,
-    img: Theme7,
-    color: "hsl(80, 61%, 50%)",
-  },
-
-  {
-    id: 8,
-    img: Theme8,
-    color: "hsl(19, 96%, 52%)",
-  },
-
-  {
-    id: 9,
-    img: Theme9,
-    color: "hsl(88, 65%, 43%)",
-  },
-
-  {
-    id: 10,
-    img: Theme10,
-    color: "hsl(42, 100%, 50%)",
   },
 ];
