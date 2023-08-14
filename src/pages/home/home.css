@@ -1,5 +1,5 @@
 .home {
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 30% 20%;
   align-items: center;
   justify-content: center;
   background-color: var(--color-white);
@@ -40,4 +40,24 @@
 .home__description {
   line-height: 2;
   margin-block: 16px 32px;
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    grid-template-columns: 100%;
+  }
+  .home__title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 17%;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--first-color);
+  }
+  .home__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
