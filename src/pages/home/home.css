@@ -1,0 +1,43 @@
+.home {
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  height: 100vh;
+}
+
+.home__img {
+  height: 100%;
+  object-fit: cover;
+}
+.home__data {
+  max-width: 600px;
+  margin-inline: auto;
+  padding-top: 20px;
+}
+
+.home__title {
+  position: relative;
+  font-size: var(--h1-font-size);
+  line-height: 1.25;
+  padding-left: 70px;
+}
+
+.home__title span {
+  color: var(--first-color);
+}
+/* ТЕРЭ ------- */
+.home__title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 22%;
+  width: 40px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: var(--first-color);
+}
+.home__description {
+  line-height: 2;
+  margin-block: 16px 32px;
+}
