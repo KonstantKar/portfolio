@@ -41,6 +41,7 @@
   line-height: 2;
   margin-block: 16px 32px;
 }
+
 @media screen and (max-width: 1024px) {
   .home {
     grid-template-columns: 100%;

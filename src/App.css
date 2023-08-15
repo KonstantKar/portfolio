@@ -25,54 +25,54 @@
   --tiny-font-size: 12px;
   --transition: all 800ms ease;
   /* ========================= Насыщенность шрифта =========================== */
-  --weight-400:400
-  --weight-500:500
-  --weight-600:600
-  --weight-700:700
-  --weight-800:800
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+  --weight-800: 800;
 }
-    /* ========================= Базовые стили =========================== */
+/* ========================= Базовые стили =========================== */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body,
 input,
 textarrea {
-  font-family:var(--body-font) ;
+  font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--weight-500);
 }
 
 body {
   background-color: var(--body-color);
-  color:var(--text-color)
+  color: var(--text-color);
 }
 
 h1,
 h2,
 h3,
-h4{
+h4 {
   color: var(--tittle-color);
   font-family: var(--second-font);
   font-weight: var(--weight-700);
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 button,
 input,
-textarea{
+textarea {
   background-color: transparent;
-  border:none;
-  outline:none;
+  border: none;
+  outline: none;
 }
 
 img {
@@ -83,15 +83,19 @@ img {
 ::-webkit-scrollbar {
   display: none;
 }
- /* ========================= Повторяющийся CSS =========================== */
- .grid{
-  display: grid;
-  gap:30px
- }
- .section{
+/* ========================= Повторяющийся CSS =========================== */
 
- }
- .button{
+.container {
+  max-width: 1140px;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+}
+
+.button {
   display: inline-block;
   color: var(--title-color);
   border: 1px solid var(--first-color);
@@ -102,21 +106,38 @@ img {
   font-weight: var(--weight-700);
   position: relative;
   transition: var(--transition);
- }
- .button:hover{
+}
+.button:hover {
   background-color: var(--first-color);
   color: var(--text-white);
- }
+}
 
-.button__icon{
+.button__icon {
   background-color: var(--first-color);
   position: absolute;
   inset-block: -1px;
   right: 0;
   width: 50px;
   border-radius: 50%;
-  color:var(--text-white);
-  font-size:var(--large-font-size);
+  color: var(--text-white);
+  font-size: var(--large-font-size);
   text-align: center;
   line-height: 60px;
+}
+.section__title {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--h1-font-size);
+  font-weight: var(--weight-800);
+  gap: 10px;
+}
+.section__title span {
+  color: var(--first-color);
+}
+@media screen and (max-width: 1024px) {
+  .grid {
+    gap: unset;
+  }
 }

@@ -1,13 +1,14 @@
-import {
-  FaHome,
-  FaUser,
-  FaFolderOpen,
-  FaEnvelopeOpen,
-  FaBriefcase,
-  FaGraduationCap,
-  FaCode,
-} from "react-icons/fa";
+import { FaBriefcase, FaGraduationCap, FaCode } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
+import Photo1 from "./assets/Photo1.jpg";
+import Photo2 from "./assets/Photo2.jpg";
+import Photo3 from "./assets/Photo3.jpg";
+import Photo4 from "./assets/Photo4.jpg";
+import Photo5 from "./assets/Photo5.jpg";
+import Photo6 from "./assets/Photo6.jpg";
+import Photo7 from "./assets/Photo7.jpg";
+import Photo8 from "./assets/Photo8.jpg";
+import Photo9 from "./assets/Photo9.jpg";
 
 export const personalInfo = [
   {
@@ -56,14 +57,96 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "3+",
-    title: "Года <br /> работы",
+    num: 3,
+    title: "Года работы",
   },
-
   {
     id: 2,
-    no: "10+",
-    title: "Завершённых  <br /> проектов",
+    num: 10,
+    title: "Завершённых проектов",
+  },
+  {
+    id: 3,
+    num: 5000,
+    title: "Часов в доте",
+  },
+  {
+    id: 4,
+    num: 20,
+    title: "Убийств в сталкрафте",
+  },
+];
+
+export const album = [
+  { id: 1, img: Photo1 },
+  { id: 2, img: Photo2 },
+  { id: 3, img: Photo3 },
+  { id: 4, img: Photo4 },
+  { id: 5, img: Photo5 },
+  { id: 6, img: Photo6 },
+  { id: 7, img: Photo7 },
+  { id: 8, img: Photo8 },
+  { id: 9, img: Photo9 },
+];
+
+export const itemData = [
+  {
+    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    title: "Breakfast",
+    rows: 2,
+    cols: 2,
+  },
+  {
+    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    title: "Burger",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    title: "Camera",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+    title: "Coffee",
+    cols: 2,
+  },
+  {
+    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    title: "Hats",
+    cols: 2,
+  },
+  {
+    img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
+    title: "Honey",
+    author: "@arwinneil",
+    rows: 2,
+    cols: 2,
+  },
+  {
+    img: "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6",
+    title: "Basketball",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1518756131217-31eb79b20e8f",
+    title: "Fern",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1597645587822-e99fa5d45d25",
+    title: "Mushrooms",
+    rows: 2,
+    cols: 2,
+  },
+  {
+    img: "https://images.unsplash.com/photo-1567306301408-9b74779a11af",
+    title: "Tomato basil",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1471357674240-e1a485acb3e1",
+    title: "Sea star",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1589118949245-7d38baf380d6",
+    title: "Bike",
+    cols: 2,
   },
 ];
 

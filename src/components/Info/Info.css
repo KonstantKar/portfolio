@@ -1,0 +1,13 @@
+.info__item {
+  grid-template-columns: u;
+}
+.info__title {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--weigth-600);
+}
+.info__description {
+  font-size: var(--small-font-size);
+  font-weight: var(--weigth-800);
+  color: black;
+}

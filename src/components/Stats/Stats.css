@@ -1,0 +1,15 @@
+.stats__box {
+  border: 2px solid var(--first-color);
+  border-radius: 5px;
+  padding: 20px 30px 25px;
+}
+.stats__num {
+  font-size: var(--h1-font-size);
+  color: var(--first-color);
+}
+@media screen and (max-width: 1024px) {
+  .stats__box {
+    border: 0px solid var(--first-color);
+    border-radius: 5px;
+  }
+}

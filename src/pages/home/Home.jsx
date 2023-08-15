@@ -5,6 +5,7 @@ import LittleProfile from "../../assets/LittleScreenMe.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import TypedText from "../../components/TypedText/TypedText";
+import CTA from "../../components/CTA/CTA.";
 
 const Home = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -27,7 +28,7 @@ const Home = () => {
   const imageSrc = windowWidth > 1024 ? Profile : LittleProfile;
 
   return (
-    <section className="home section grid">
+    <main className="home section grid">
       <img src={imageSrc} alt="" className="home__img" />
       <div className="home__content">
         <div className="home__data">
@@ -49,9 +50,10 @@ const Home = () => {
               <FaArrowRight />
             </span>
           </Link>
+          <CTA />
         </div>
       </div>
-    </section>
+    </main>
   );
 };
 
