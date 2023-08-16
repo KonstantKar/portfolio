@@ -5,7 +5,7 @@ import LittleProfile from "../../assets/LittleScreenMe.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import TypedText from "../../components/TypedText/TypedText";
-import CTA from "../../components/CTA/CTA.";
+import CTA from "../../components/CTA/CTA";
 
 const Home = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

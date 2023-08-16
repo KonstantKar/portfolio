@@ -76,7 +76,10 @@ textarea {
 }
 
 img {
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* Убираем полосы прокрутки */
@@ -92,7 +95,6 @@ img {
 
 .grid {
   display: grid;
-  gap: 30px;
 }
 
 .button {
@@ -136,6 +138,7 @@ img {
 .section__title span {
   color: var(--first-color);
 }
+
 @media screen and (max-width: 1024px) {
   .grid {
     gap: unset;

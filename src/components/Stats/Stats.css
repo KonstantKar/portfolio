@@ -2,6 +2,7 @@
   border: 2px solid var(--first-color);
   border-radius: 5px;
   padding: 20px 30px 25px;
+  background-color: var(--container-color);
 }
 .stats__num {
   font-size: var(--h1-font-size);
@@ -11,5 +12,6 @@
   .stats__box {
     border: 0px solid var(--first-color);
     border-radius: 5px;
+    background-color: unset;
   }
 }

@@ -2,7 +2,8 @@ import About from "../pages/about/About";
 import Contacts from "../pages/contacts/Contacts";
 import Home from "../pages/home/Home";
 import Portfolio from "../pages/portfolio/Portfolio";
-import { FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen } from "react-icons/fa";
+import { FaHome, FaUser, FaEnvelopeOpen } from "react-icons/fa";
+import { BsFillCameraReelsFill } from "react-icons/bs";
 
 export const routesList = [
   {
@@ -26,7 +27,7 @@ export const routesList = [
     name: "Портфолио",
     path: "/portfolio",
     component: Portfolio,
-    icon: <FaFolderOpen className="nav__icon" />,
+    icon: <BsFillCameraReelsFill className="nav__icon" />,
   },
 
   {

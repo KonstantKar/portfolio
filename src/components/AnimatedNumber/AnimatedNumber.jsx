@@ -8,11 +8,7 @@ const AnimatedNumber = ({ value }) => {
     config: { duration: 1000 }, // Настройте продолжительность анимации
   });
 
-  return (
-    <animated.span>
-      {number.interpolate((num) => Math.floor(num))}
-    </animated.span>
-  );
+  return <animated.span>{number.to((num) => Math.floor(num))}</animated.span>;
 };
 
 export default AnimatedNumber;

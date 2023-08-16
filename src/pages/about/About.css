@@ -3,6 +3,25 @@
 .stats {
   margin-top: 3vh;
   grid-template-columns: 50% 50%;
+  gap: 30px;
+}
+
+.about__title {
+  background-image: url("https://sun9-43.userapi.com/impf/c844321/v844321011/53351/qu28p027PQ0.jpg?size=2560x1702&quality=96&sign=a8db87205c91038eac4a1741ceaac5b6&type=album");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--h1-font-size);
+  font-weight: var(--weight-800);
+  gap: 10px;
+}
+
+.about__title span {
+  color: var(--first-color);
 }
 
 .info__list {
@@ -14,8 +33,9 @@
 }
 
 .section__subtitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--weight--700);
+  color: var();
 }
 
 .about__footer {

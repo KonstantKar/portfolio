@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./About.css";
 import Info from "../../components/Info/Info";
 import Stats from "../../components/Stats/Stats";
@@ -7,11 +7,12 @@ import CTA from "../../components/CTA/CTA";
 const About = () => {
   return (
     <>
+      <h3 className="about__title">
+        <span>Обо</span>
+        <span>Мне</span>
+      </h3>
       <main className="section container">
         <section className="about">
-          <h2 className="section__title">
-            Обо<span>Мне</span>
-          </h2>
           <div className="about__container grid">
             <div className="about__info">
               <h3 className="section__subtitle">Персональная информация:</h3>

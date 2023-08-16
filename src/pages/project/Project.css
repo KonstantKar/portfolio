@@ -1,0 +1,44 @@
+.project {
+  height: 100%;
+}
+.project__video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project__description-title {
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--container-color);
+  overflow: hidden;
+  border-radius: 5px;
+  flex-grow: 1;
+  height: 100px;
+}
+.project__description-title h2 {
+  color: var(--first-color);
+}
+.project__description {
+  display: flex;
+  gap: 40px;
+}
+.project__footer {
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px; /* Здесь можно задать высоту вашего футера */
+  background-color: #f5f5f5; /* Пример цвета фона */
+  font-weight: var(--weight-400);
+  font-size: var(--small-font-size);
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://sun9-45.userapi.com/impf/c844321/v844321011/53365/ExETn2HJ_ss.jpg?size=2560x1172&quality=96&sign=d77450947a35d416029346be334acf9d&type=album");
+  color: var(--first-color);
+}

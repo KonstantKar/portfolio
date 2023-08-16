@@ -8,6 +8,10 @@
 }
 .cta__net a {
   color: var(--first-color);
+  transition: var(--transition);
+}
+.cta__net a:hover {
+  color: black;
 }
 @media screen and (max-width: 1024px) {
   .cta__net {
